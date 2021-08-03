@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inveterism</title>
+    <meta charset="utf-8">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <style>
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+        }
+
+        .slick-dots>li {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .slick-dots>li.slick-active>a {
+            background: #16bc9e;
+            color: #fff !important;
+            z-index: 99999;
+            width: 31px;
+            height: 31px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body class="">
+
+    <nav class="relative font-serif p-4 md:pl-24 md:pr-24 bg-yellow-300 flex items-center justify-between">
+        <div class="text-white font-medium text-2xl">
+            Inveterism
+        </div>
+        <div class="hidden md:block text-sm space-x-8">
+            <a href="#">About Us</a>
+            <a href="#">Why Us</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Price</a>
+            <a href="#">Partner</a>
+            <a href="#">Order</a>
+        </div>
+        <div class="md:block lg:hidden flex items-center space-x-2">
+            <button class="lg:hidden inline-block md:hidden w-8 h-8 bg-gray-200 text-yellow-600 p-1">
+                <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <div class="main pl-10 pr-10 md:pl-24 md:pr-24">
+        <div class="flex flex-col-reverse  md:grid md:grid-cols-12">
+            <div class="md:col-span-6  space-y-8 pt-10">
+                <h1 class="text-3xl md:text-5xl font-serif flex flex-col space-y-1" style="font-weight: 500;"><span class="flex items-end">Buat Persiapan <img class="-mb-2 w-14 md:w-16" src="assets/section1-icon-ring.svg"></span><span class=""><el class="text-yellow-300">Pernikahanmu</el> Lebih</span> <span>Mudah</span></h1>
+                <p class=" text-gray-700 leading-7 w-full md:w-10/12">Kami menyediakan undangan berbasis website yang dapat memudahkan kalian yang ingin mengirim undangan. Kalian hanya perlu mengirim link undangan tidak perlu repot.</p>
+                <button class="btn font-medium text-white shadow-lg  p-3 bg-yellow-300 flex items-center">Selengkapnya <span class="rounded-full h-5 w-5 ml-2 flex items-center justify-center bg-white text-xs text-yellow-300">></span></button>
+            </div>
+            <div class="md:col-span-6 pt-14 md:pt-10">
+                <div class="relative h-72 md:h-0 sm:h-72">
+                    <img class="absolute z-10 -top-5 mx-auto left-0 md:left-auto right-0 md:right-0 w-10/12" src="assets/section1-hero-image.png">
+                    </img>
+                    <img class="absolute -top-2 md:top-0 left-3 md:left-auto md:right-5 w-10/12" src="assets/section1-hero-rectangle.svg">
+                    </img>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="index.js"></script>
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>
