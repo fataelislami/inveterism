@@ -13,4 +13,15 @@ $(document).ready(() => {
             nextArrow: $('.nextTesti'),
         }
     );
+    $(".slick-partners").slick(
+        {
+            dots: true,
+            centerMode: true,
+            autoplay: true,
+            slidesToShow:3,
+            arrows: true,
+            prevArrow: $('.prevPartner'),
+            nextArrow: $('.nextPartner'),
+        }
+    );
 })
