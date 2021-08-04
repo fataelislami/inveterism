@@ -1,4 +1,4 @@
-import "./styles.css.proxy.js";
-import $ from "./_snowpack/pkg/jquery.js";
+import "./styles.css";
+import $ from "jquery";
 
 console.log("hello world!");

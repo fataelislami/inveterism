@@ -1,12 +1,13 @@
-import $ from "./_snowpack/pkg/jquery.js";
-import "./_snowpack/pkg/slick-carousel.js";
+import $ from "jquery";
+import "slick-carousel";
 
 // Slick
 $(document).ready(() => {
     $(".slick-testimonials").slick(
         {
             dots: true,
-            centerMode: true,
+            centerPadding:"20px",
+            centerMode:true,
             autoplay: true,
             arrows: true,
             prevArrow: $('.prevTesti'),
