@@ -1,5 +1,5 @@
-import $ from "jquery";
-import "slick-carousel";
+import $ from "./_snowpack/pkg/jquery.js";
+import "./_snowpack/pkg/slick-carousel.js";
 
 // Slick
 $(document).ready(() => {
