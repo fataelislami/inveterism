@@ -6,7 +6,8 @@ $(document).ready(() => {
     $(".slick-testimonials").slick(
         {
             dots: true,
-            centerMode: true,
+            centerPadding:"20px",
+            centerMode:true,
             autoplay: true,
             arrows: true,
             prevArrow: $('.prevTesti'),
